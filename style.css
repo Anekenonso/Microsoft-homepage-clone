@@ -114,3 +114,31 @@ body{
     margin-top: 20px;
 }
 
+/* home cards */
+
+.home-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.home-card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-card h3 {
+    margin-bottom: 5px;
+}
+
+.home-card a{
+    display: inline-block;
+    padding-top: 10px;
+    color: #0067b8;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.home-card a:hover{
+    margin-left: 10px;
+}
